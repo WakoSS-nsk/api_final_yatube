@@ -48,9 +48,7 @@ class Comment(models.Model):
         'Дата добавления', auto_now_add=True, db_index=True)
 
     def __str__(self):
-        return '"{}" to post "{}" by author "{}"'.format(self.text,
-                                                         self.post,
-                                                         self.author)
+        return f'{self.text} to post {self.post} by author {self.author}'
 
 
 class Follow(models.Model):
