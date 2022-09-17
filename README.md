@@ -54,4 +54,4 @@ localhost:8000/api/v1/token/
 /api/v1/posts/ 
 ```
 При отправке запроса передавайте токен в заголовке
- Authorization: Bearer <токен>
+ **Authorization: Bearer <токен>**
